@@ -28,3 +28,6 @@ while guessesTaken < 6:
 if guess == number:
     guessesTaken = str(guessesTaken)
     print("Good job, " + myName + "! You guessed my number in " + guessesTaken + " guesses!")
+if guess != number:
+        number = str(number)
+        print("Nope. The number I was thinking of was " + number)
